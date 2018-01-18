@@ -122,14 +122,13 @@ platform :ios do
     )
 
     set_github_release(
-      repository_name: "clappr/clappr-ios",
+      repository_name: "dezouzart/clappr-ios",
       api_token: ENV["GITHUB_TOKEN"],
       name: "",
       tag_name: options[:version],
       description: "TODO: write release notes here"
     )
 
-    pod_push
   end
 
   # You can define as many lanes as you want
